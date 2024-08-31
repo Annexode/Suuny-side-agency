@@ -182,6 +182,11 @@ a {
   margin-bottom: 100px;
 }
 
+#client-testimonials {
+  color: gray;
+  font-size: 30px;
+}
+
 #profile-image {
   width: 80px;
   height: 80px;
