@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+/* HEADER */
+.header {
+  background: url(./assets/desktop/image-header.jpg);
+  background-position-y: -190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1920px;
+  height: 870px;
+  padding: 100px 80px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1080px;
+  margin-right: 60px;
+  gap: 80px;
+  list-style: none;
+}
+
+#nav-links a {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact {
+  font-weight: 800;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 30px;
+}
+
+#contact a {
+  color: black;
+}
+
+#who-we-are {
+  color: white;
+  padding: 70px;
+  font-size: 75px;
+  font-weight: 800;
+  letter-spacing: 22px;
+}
+
+#arrow {
+  margin-bottom: 420px;
+}
+
+/* SLIDES */
+.slides {
+  display: flex;
+  width: 1920px;
+}
+
+.page {
+  width: 50%;
+  height: 795px;
+  padding: 230px 170px 200px 200px;
+}
+
+.page h1 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+.page p {
+  color: rgb(105, 95, 95);
+  font-weight: 550;
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+#sub-slide-transform-your-bland #learn-more {
+  color: rgb(11, 11, 72);
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: #f2d46e solid 7px;
+  border-radius: 10px;
+}
+
+.dark-yellow {
+  background: url(./assets/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.light-red {
+  background: url(./assets/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sub-slide-stand-out #learn-more {
+  color: rgb(11, 11, 72);
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: #fd7867 solid 7px;
+  border-radius: 10px;
+}
+
+.graphic-design {
+  background: url(./assets/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.graphic-design h2,
+.photography h2 {
+  font-size: 35px;
+  margin-top: 280px;
+  margin-bottom: 40px;
+  color: rgb(82, 74, 74);
+  font-weight: 800;
+}
+
+.graphic-design p,
+.photography p {
+  color: rgb(105, 95, 95);
+  font-size: 20px;
+  margin: auto 50px;
+}
+
+.photography {
+  background: #63cdff;
+  background: url(./assets/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.testimonials-staff {
+  width: 1920px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 150px;
+}
+
+.staff {
+  display: flex;
+  margin-top: -80px;
+  margin-bottom: 100px;
+}
+
+#profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+#member {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#member p {
+  color: rgb(105, 95, 95);
+  font-size: 20px;
+  font-weight: 550;
+  text-align: center;
+  line-height: 30px;
+  margin: auto 40px 100px 40px;
+}
+
+#member h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#member h4 {
+  font-size: 13px;
+  color: rgb(96, 93, 93);
+}
+
+/* FOOTER */
+.footer {
+  width: 1920px;
+  height: 900px;
+  background: #90d4c5;
+}
+
+.footer img {
+  height: 55%;
+  width: 25%;
+}
+
+#products {
+  display: flex;
+}
+
+#bottom-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  margin: 20px;
+  font-weight: 600;
+}
+
+#social-medias {
+  display: flex;
+  gap: 30px;
+}
+
+#social-medias img {
+  width: 20px;
+  height: 20px;
+}
+
+#products {
+  margin-bottom: 50px;
+}
+
+#bottom-links a {
+  color: rgba(27, 72, 27, 0.813);
+}
+
+/* HOOVERS*/
+#nav-links a:hover {
+  color: rgb(11, 11, 152);
+}
+
+#contact:hover {
+  background: rgba(255, 255, 255, 0.47);
+  color: white;
+}
+
+#contact a:hover {
+  color: white;
+}
+
+#bottom-links a:hover {
+  color: rgba(255, 255, 255, 0.813);
+}
