@@ -255,6 +255,8 @@ span {
 
 #social-medias {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 
@@ -287,4 +289,12 @@ span {
 
 #bottom-links a:hover {
   color: rgba(255, 255, 255, 0.813);
+}
+
+#social-medias img:hover {
+  width: 30px;
+  padding: 3px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 100px;
 }
